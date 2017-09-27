@@ -1,0 +1,87 @@
+
+a {
+	font-size: 20px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bongda {
+	max-width: 1000px;
+	margin: auto;
+
+}
+
+ 
+ #menu  a:hover{
+  background: black;
+  color : white ;
+}
+
+#menu a {
+		text-align: center;
+ 		 float: left;
+ 		 background: green;
+ 		 height: 40px;
+ 		 text-decoration: none;
+ 		 line-height: 40px;
+ 		 margin: auto;
+ 		 width:25%;
+ 		 color: white;
+}
+#menu {
+	width: 600px;
+	margin: auto;
+	position: relative;
+}
+.khoi {
+	width: 1000px;
+	height: 40px;
+	background: green;
+	
+	margin: auto;
+}
+.banner img {
+	width: 1000px;
+	margin: auto;
+	height: auto;
+	padding: 0;
+}
+
+#menu > a:first-child > img {
+	max-width: 150px;
+	border-radius: 50%;
+	
+}
+#menu > a:first-child {
+	position: absolute;
+	border-radius: 50%;
+	padding: 3px;
+    background: no-repeat;
+    top: -142px;
+    left: -60px;
+}
+#icon {
+
+	position: fixed;
+	right: 50px;
+	bottom: 15px;
+}
+.bongda2 div {
+	float: left;
+	width: 33.3333%;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid red;
+	background-color: orange;
+}
+.bongda2 a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+
+}
+html {
+	background-color: #99cccc;
+}

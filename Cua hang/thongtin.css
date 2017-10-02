@@ -1,0 +1,39 @@
+* {
+	max-width: 1000px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.footer {
+
+	text-align: center;
+	width: 1000px;
+	height: 150px;
+	
+}
+.footer div {
+	float: left;
+
+}
+.footer a {
+	text-decoration: none;
+	font-size: 20px;
+	
+}
+#lienhe h1 {
+	
+	text-align: center;
+	color: #35342d;
+}
+#fb {
+	font-size: 17px;
+	width: 33.33333%;
+	padding: 50px;
+}
+.thongtin div {
+	float: left;
+}
+.ten {
+	width: 400px;
+	height: 312px;
+}

@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: orange ;
+}
+.number button{
+	background-color: #081c20;
+	font-size: 20px;
+	text-align: center;
+	border: none;
+    margin: 1px;
+    width: 66px;
+    height: 66px;
+    border-radius: 4px;
+    color: white;
+}
+.number{
+	word-spacing: -4px;
+	width: 100%;
+	background-color: #005dff;
+}
+.hien{
+	background-color: white;
+	width: 272px;
+	height: 50px;
+	text-align: right;
+	margin-bottom: 5px
+}
+.maytinh{
+
+	position: absolute; 
+	left: 130px ;
+	top:140px;
+	border:3px solid #249ddd ;
+	padding: 20px;
+	background-color: #005dff;
+	border-radius: 5px;
+}
+#nhap{
+	font-size: 45px;
+}

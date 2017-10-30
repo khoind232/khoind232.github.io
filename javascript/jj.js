@@ -8,7 +8,7 @@ var current,
     period,
     operator;
     
-    screen = document.getElementById("result");
+    screen = document.getElementById("result");//in hàm lên result 
 
 var elem = document.querySelectorAll(".num");
     

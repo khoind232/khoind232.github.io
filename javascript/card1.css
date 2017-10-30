@@ -1,0 +1,65 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	overflow-y: scroll;
+}
+.game {
+	position: relative;
+	margin:auto;
+	padding: 15px;
+	max-width: 1200px;
+	max-height: 600px;
+	height: 100%;
+}
+.cti {
+	position: relative;
+	overflow: auto;
+}
+.bos {
+	float: left;
+}
+.la1 .back {
+	transform: rotateY(180deg);
+}
+.la1 {
+	position: relative;
+}
+/*.la1:hover .back {
+	transform: rotateY(0deg);
+}*/
+.la1 .face {
+	transform: rotateY(0deg);
+	position: absolute;
+
+}
+/*.la1:hover .face {
+	transform: rotateY(180deg);
+}*/
+.la1 .back , .la1 .face {
+	transition: all 1s;
+	backface-visibility: hidden;
+}
+.game div{
+	float: left;
+	padding: 10px;
+	margin: auto;
+}
+body{
+	background-image: url("hihi.gif");
+}
+.game img {
+	width: 170px;
+	height: 250px;
+}
+.la1.flipped.face {
+	transform: rotateY(180deg);
+}
+.flip.back{
+	transform: rotateY(0deg);
+}
+ .flip .face{
+	transform: rotateY(180deg);
+}

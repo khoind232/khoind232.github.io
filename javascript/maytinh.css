@@ -30,7 +30,8 @@ body{
 	margin-bottom: 5px
 }
 .maytinh{
-
+	text-align: center;
+	color: white;
 	position: absolute; 
 	left: 130px ;
 	top:140px;
@@ -41,4 +42,10 @@ body{
 }
 #nhap{
 	font-size: 45px;
+}
+#ac {
+	background-color: red;
+}
+#bang {
+	background-color: green;
 }

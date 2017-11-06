@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>máy tính</title>
+	<link rel="stylesheet" type="text/css" href="maytinh.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="maytinh">
+		<div><h1>Khởi ND</h1></div>
+		<div class="hien">
+<b id="nhap"></b>
+</div>
+<button id="giao">Mở máy tính</button>
+	<div class="number">
+			<div class="temp">
+				<button onclick="pressAC()" id="ac">AC</button>
+				<button onclick="pressphantram()">%</button>
+				<button onclick="pressbinhphuong()">x2</button>
+				<button onclick="press('/')">/</button>
+			</div>
+
+			<div class="e">
+				<button onclick="press('9')">9</button>
+				<button onclick="press('8')">8</button>
+				<button onclick="press('7')">7</button>
+				<button onclick="press('*')">*</button>
+			</div>
+
+			<div class="b">
+				<button onclick="press('6')">6</button>
+				<button onclick="press('5')">5</button>
+				<button onclick="press('4')">4</button>
+				<button onclick="press('-')">-</button>
+			</div>
+
+			<div class="c">
+				<button onclick="press('3')">3</button>
+				<button onclick="press('2')">2</button>
+				<button onclick="press('1')">1</button>
+				<button  onclick="press('+')">+</button>
+			</div>
+
+			<div class ="d">
+				<button onclick="press('0')">0</button>
+				<button onclick="press('.')">.</button>
+				<button onclick="presscan()">&radic;</button>
+				<button onclick="presskq('=')" id="bang">=</button>
+			</div>
+	</div>
+</div>
+<script src="jquery/jquery.js"></script>
+<script type="text/javascript" src="maytinh.js"></script>
+</body>
+</html>

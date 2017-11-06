@@ -34,3 +34,16 @@
 			document.getElementById("nhap").innerText=k.slice(0,8);
 
 		}
+
+		$( "#giao" ).click(function() {
+  		$( ".number" ).toggle( "slow" );
+		});
+
+
+		$(document).ready(function(){
+    	$(".number").toggle(
+        // function(){$("buton").css({"background-color": "red"});},
+        // function(){$("button").css({"background-color": "blue"});},
+        function(){$("button").css({"background-color": "green"});
+    });
+});

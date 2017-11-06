@@ -49,3 +49,12 @@ body{
 #bang {
 	background-color: green;
 }
+#giao{
+	width: 270px;
+	height: 66px;
+	margin: auto;
+	background-color: #081c20;
+	font-size: 30px;
+	color: white;
+	border-radius: 5px;
+}

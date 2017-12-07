@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hihi</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+	<div class="back"><img src="img/login.jpg"></div>
+	<div class="in">
+	<form action="dangki.html" id="form-register">
+		<div>
+	<label for="ten">Họ & Tên</label><br/>
+	<input type="text" name="ten" placeholder="Tên" id="ten" class="ten"><span class="enrror"></span>
+	<input type="text" name="ho" placeholder="Họ" id="ho" class="ten"><span class="enrror"></span><br/>
+</div>
+<div>
+	<label for="taikhoan">Chọn tên đăng nhập</label><br/>
+	<input type="text" name="taikhoan" placeholder="Tên đăng nhập" class="duoi" id="taikhoan"><span class="enrror"></span><br/>
+</div>
+<div>
+	<label for="pass">Nhập mật khẩu</label><br/>
+	<input type="text" name="pass" placeholder="Mật khẩu" class="duoi" id="pass"><span class="enrror"></span><br/>
+</div>
+<div>
+	<label for="matkhau">Nhập lại mật khẩu</label><br/>
+	<input type="text" name="matkhau" placeholder="Nhập lại mật khẩu" class="duoi" id="matkhau"><span class="enrror"></span><br/>
+</div>
+<div>
+	<label for="mail">Nhập địa chỉ email</label><br/>
+	<input type="text" name="mail" placeholder="Email" class="duoi" id="mail"><span class="enrror"></span><br/>
+</div>
+<div>
+	<label for="sdt">Nhập số điện thoại</label><br/>
+	<input type="text" name="sdt" placeholder="Số điện thoại" class="duoi" id="sdt"><span class="enrror"></span><br/>
+</div>
+<div>
+	<label for="ngay">Sinh nhật</label><br/>
+	<input type="text" name="ngay" id="ngay" placeholder="Ngày"><span class="enrror">
+	<select id="thang">
+		<option value="1">Tháng 1</option>
+		<option value="2">Tháng 2</option>
+		<option value="3">Tháng 3</option>
+		<option value="4">Tháng 4</option>
+		<option value="5">Tháng 5</option>
+		<option value="6">Tháng 6</option>
+		<option value="7">Tháng 7</option>
+		<option value="8">Tháng 8</option>
+		<option value="9">Tháng 9</option>
+		<option value="10">Tháng 10</option>
+		<option value="11">Tháng 11</option>
+		<option value="12">Tháng 12</option>
+	</select><span class="enrror">
+	<input type="text" name="nam" id="ngay" placeholder="Năm"><span class="enrror">
+	<br/>
+</div>
+<div>
+	<label for="">Giới tính</label><br/>
+	<label>
+	<input type="radio" id="remenber" value="nam"  name="remenber"><label for="remenber" class="nam"> Nam
+	<input type="radio" id="nu" value="nữ" name="remenber"><label for="nu" class="nam"> Nữ </label> <br/>
+</div>
+	<input type="submit" value="Đăng ký" id="dangky">
+</form>
+</div>
+<script src="jquery/jquery.js"></script>
+<script src="js/input.js">
+</script>
+</body>
+</html>

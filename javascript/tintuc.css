@@ -1,0 +1,25 @@
+.banner {
+	width: 100%;
+}
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.tintuc {
+	width: 1000px;
+	margin: auto;
+	list-style-type: none;
+	position: relative;
+
+}
+.tintuc ul li {
+	list-style-type: none;
+	position: absolute;
+	
+}
+.tintuc li {
+	float: left;
+	width: 200px;
+	text-align: center;
+}

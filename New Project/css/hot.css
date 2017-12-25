@@ -1,0 +1,21 @@
+.hot {
+	margin-top: 20px;
+	width: 1300px;
+	margin: auto;
+}
+.hang div{
+	text-align: center;
+	float: left;
+	width: 25%;
+	margin: auto;
+}
+.sanpham img {
+	width: 98%;
+	height: 250px;
+	margin-left: 3px;
+}
+.sanpham a {
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}

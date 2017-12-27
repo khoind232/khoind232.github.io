@@ -4,9 +4,10 @@
   white-space: nowrap;
 }
 .container-1 input#search{
+  border: 1px solid black;
   width: 200px;
   height: 50px;
-  background: #2b303b;
+  background: #f1f0f0;
   border: none;
   font-size: 10pt;
   float: left;

@@ -44,3 +44,8 @@
 	top: 21px;
 	right: 0px;
 }
+.fa-search:before {
+    position: absolute;
+    content: "\f002";
+    top: 38px;
+}
